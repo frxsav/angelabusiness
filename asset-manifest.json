@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/angelabusiness/static/css/main.f19c1aa0.css",
+    "main.js": "/angelabusiness/static/js/main.cee6e0ae.js",
+    "index.html": "/angelabusiness/index.html",
+    "static/media/getFetch.cjs": "/angelabusiness/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.f19c1aa0.css.map": "/angelabusiness/static/css/main.f19c1aa0.css.map",
+    "main.cee6e0ae.js.map": "/angelabusiness/static/js/main.cee6e0ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f19c1aa0.css",
+    "static/js/main.cee6e0ae.js"
+  ]
+}
