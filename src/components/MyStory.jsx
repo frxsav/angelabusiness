@@ -6,7 +6,7 @@ const MyStory = () => {
   const { t } = useTranslation();
   return (
     <>
-      <div className="grid grid-cols-12 pb-10">
+      <div className="grid grid-cols-12 pb-10" id="about">
         <h1 className="pt-10 pb-3 text-5xl font-bold col-span-12 text-center">
           {t("my_story.title")}
         </h1>

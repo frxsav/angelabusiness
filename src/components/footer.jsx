@@ -10,19 +10,34 @@ const Footer = () => {
         className="bg-neutral-600 grid grid-cols-12 p-5 pb-2 mr-[150px] text-neutral-100"
         style={{ borderRadius: "0% 2% 2% 0% / 100% 50% 50% 0%" }}
       >
-        <a href="#" className="col-start-2 col-span-3 text-lg hover:text-teal-600 transition duration-1">
+        <a
+          href="https://api.whatsapp.com/send?phone=3394211017"
+          target="_blank"
+          className="col-start-2 col-span-3 text-lg hover:text-teal-600 transition duration-1"
+        >
           {t("footer.webinar")}
         </a>
-        <a href="#" className="col-span-3 text-lg hover:text-teal-600 transition duration-1">
+        <a
+          href="https://myw.tf/emcgqn"
+          target="_blank"
+          className="col-span-3 text-lg hover:text-teal-600 transition duration-1"
+        >
           {t("footer.save_your_money")}
         </a>
         <div className="col-end-12 col-span-3">
           <Social></Social>
         </div>
-        <a href="#" className="col-start-2 col-span-3 text-lg hover:text-teal-600 transition duration-1">
+        <a
+          href="https://api.whatsapp.com/send?phone=3394211017"
+          target="_blank"
+          className="col-start-2 col-span-3 text-lg hover:text-teal-600 transition duration-1"
+        >
           {t("footer.start_activity")}
         </a>
-        <a href="#" className="col-span-3 text-lg hover:text-teal-600 transition duration-1">
+        <a
+          href="#about"
+          className="col-span-3 text-lg hover:text-teal-600 transition duration-1"
+        >
           {t("footer.about")}
         </a>
         <address className="col-span-3 col-end-12 pt-2">

@@ -18,9 +18,13 @@ const About = () => {
           <BiSolidQuoteAltLeft className="text-7xl self-start"></BiSolidQuoteAltLeft>
           {t("about.cit")}
           <BiSolidQuoteAltRight className="text-7xl self-end"></BiSolidQuoteAltRight>
-          <button className="text-white btn border-teal mt-20 p-6 rounded-full self-end gradient-to-right hover:shadow-xl">
+          <a
+            className="text-white btn border-teal mt-20 p-6 rounded-full self-end gradient-to-right hover:shadow-xl"
+            href="https://api.whatsapp.com/send?phone=3394211017"
+            target="_blank"
+          >
             {t("about.webinar")}
-          </button>
+          </a>
         </address>
         <img
           className="col-span-4 col-start-8"
