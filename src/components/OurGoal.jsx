@@ -72,6 +72,16 @@ const OurGoal = () => {
             <CarouselList></CarouselList>
           </div>
         </section>
+        <section className="col-span-10 col-start-2 flex justify-center text-xl">
+          <a
+            className="pulse text-white border-teal lg:mt-20 p-6 rounded-full lg:self-end gradient-to-right hover:shadow-xl uppercase font-semibold self-center"
+            href="https://myw.tf/emcgqn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {t("footer.save_your_money")}
+          </a>
+        </section>
       </div>
     </>
   );

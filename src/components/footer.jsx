@@ -16,17 +16,21 @@ const Footer = () => {
           href="https://api.whatsapp.com/send?phone=3394211017"
           target="_blank"
           rel="noreferrer"
-          className="lg:col-start-2 col-span-6 lg:col-span-3 text-md hover:text-teal-600 transition duration-1 lg:order-1 active:text-teal-600 focus:text-neutral-100"
+          className="lg:col-start-2 col-span-6 lg:col-span-3 text-md lg:order-1"
         >
-          {t("footer.webinar")}
+          <span className="active:text-teal-600 focus:text-neutral-100 hover:text-teal-600 transition duration-1 ">
+            {t("footer.webinar")}
+          </span>
         </a>
         <a
           href="https://myw.tf/emcgqn"
           target="_blank"
           rel="noreferrer"
-          className="col-span-6 lg:col-span-3 text-md hover:text-teal-600 transition duration-1 lg:order-2 active:text-teal-600 focus:text-neutral-100"
+          className="col-span-6 lg:col-span-3 text-md lg:order-2"
         >
-          {t("footer.save_your_money")}
+          <span className="active:text-teal-600 focus:text-neutral-100 hover:text-teal-600 transition duration-1 ">
+            {t("footer.save_your_money")}
+          </span>
         </a>
         <div className="lg:col-end-12 lg:col-span-3 lg:order-3 order-6 col-end-10 pt-2 lg:pt-0">
           <Social></Social>
@@ -35,18 +39,22 @@ const Footer = () => {
           href="https://api.whatsapp.com/send?phone=3394211017"
           target="_blank"
           rel="noreferrer"
-          className="lg:col-start-2 col-span-6 lg:col-span-3 text-md hover:text-teal-600 transition duration-1 lg:order-4 order-3 active:text-teal-600 focus:text-neutral-100"
+          className="lg:col-start-2 col-span-6 lg:col-span-3 text-md lg:order-4 order-3"
         >
-          {t("footer.start_activity")}
+          <span className="active:text-teal-600 focus:text-neutral-100 hover:text-teal-600 transition duration-1 ">
+            {t("footer.start_activity")}
+          </span>
         </a>
         <a
           href="#about"
-          className="col-span-6 lg:col-span-3 text-md hover:text-teal-600 transition duration-1 lg:order-5 order-4 active:text-teal-600 focus:text-neutral-100"
+          className="col-span-6 lg:col-span-3 text-md lg:order-5 order-4"
         >
-          {t("footer.about")}
+          <span className="active:text-teal-600 focus:text-neutral-100 hover:text-teal-600 transition duration-1 ">
+            {t("footer.about")}
+          </span>
         </a>
         <address className="lg:col-span-3 lg:col-end-12 col-span-7 text-xs pt-2 lg:order-6 order-5 self-end">
-          {t("footer.copyright")}
+          <span>{t("footer.copyright")}</span>
         </address>
       </div>
     </>
