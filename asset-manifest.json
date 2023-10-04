@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/angelabusiness/static/css/main.f5cfd6f1.css",
-    "main.js": "/angelabusiness/static/js/main.a8d370aa.js",
-    "static/media/Angela.png": "/angelabusiness/static/media/Angela.c727a3f317e269af64b5.png",
+    "main.css": "/angelabusiness/static/css/main.7dab6692.css",
+    "main.js": "/angelabusiness/static/js/main.3e402c46.js",
+    "static/media/Angela.png": "/angelabusiness/static/media/Angela.748df5882318395c637a.png",
     "static/media/Logo.png": "/angelabusiness/static/media/Logo.95a96b74f9de914214c6.png",
     "index.html": "/angelabusiness/index.html",
     "static/media/getFetch.cjs": "/angelabusiness/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.f5cfd6f1.css.map": "/angelabusiness/static/css/main.f5cfd6f1.css.map",
-    "main.a8d370aa.js.map": "/angelabusiness/static/js/main.a8d370aa.js.map"
+    "main.7dab6692.css.map": "/angelabusiness/static/css/main.7dab6692.css.map",
+    "main.3e402c46.js.map": "/angelabusiness/static/js/main.3e402c46.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5cfd6f1.css",
-    "static/js/main.a8d370aa.js"
+    "static/css/main.7dab6692.css",
+    "static/js/main.3e402c46.js"
   ]
 }
