@@ -6,7 +6,7 @@ const Target = () => {
   const { t } = useTranslation();
   return (
     <>
-      <div className="grid grid-cols-12 pt-0 lg:pt-5 overflow-hidden">
+      <div className="grid grid-cols-12 pt-10 lg:pt-32 overflow-hidden">
         <h1 className="text-4xl lg:text-5xl font-bold col-span-12 text-center pb-2 lg:pb-4 pt-0 lg_pt-20">
           {t("target.title")}
         </h1>

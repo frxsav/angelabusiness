@@ -7,10 +7,10 @@ const MyStory = () => {
   return (
     <>
       <div className="grid grid-cols-12 pb-10" id="about">
-        <h1 className="pt-10 pb-2 lg:pb-3 text-4xl lg:text-5xl font-bold col-span-12 text-center">
+        <h1 className="pb-2 lg:pb-3 text-4xl lg:text-5xl font-bold col-span-12 text-center">
           {t("my_story.title")}
         </h1>
-        <div className="col-span-2 col-start-6 border-b-[4px] border-teal-600 mb-10"></div>
+        <div className="col-span-2 col-start-6 border-b-[4px] border-teal-600 mb-5"></div>
         <section className="flex flex-col items-center col-span-10 col-start-2 lg:text-center text-lg lg:text-2xl space-y-2">
           <p>
             <Trans
