@@ -3,7 +3,7 @@ import { BsInstagram, BsFacebook, BsTiktok } from "react-icons/bs";
 
 const Social = () => {
   return (
-    <div className="grid grid-cols-6 col-span-3 lg:col-span-2 lg:col-end-12 col-end-12 pt-2 lg:pt-4 gap-8 lg:gap-0 text-2xl lg:text-3xl">
+    <div className="grid grid-cols-6 col-span-3 lg:col-span-2 lg:col-end-12 col-end-12 pt-2 gap-14 lg:gap-0 text-2xl lg:text-3xl">
       <a
         href="https://www.facebook.com/dott.ssaAngelaFormisano"
         target="_blank"
