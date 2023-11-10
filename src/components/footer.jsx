@@ -18,7 +18,7 @@ const Footer = () => {
           rel="noreferrer"
           className="lg:col-start-2 col-span-6 lg:col-span-3 text-md lg:order-1"
         >
-          <span className="active:text-teal-600 focus:text-neutral-100 hover:text-teal-600 transition duration-1 text-xl">
+          <span className="active:text-teal-600 focus:text-neutral-100 hover:text-teal-600 transition duration-1 text-lg">
             {t("footer.webinar")}
           </span>
         </a>
@@ -28,7 +28,7 @@ const Footer = () => {
           rel="noreferrer"
           className="col-span-6 lg:col-span-3 text-md lg:order-2"
         >
-          <span className="active:text-teal-600 focus:text-neutral-100 hover:text-teal-600 transition duration-1 text-xl">
+          <span className="active:text-teal-600 focus:text-neutral-100 hover:text-teal-600 transition duration-1 text-lg">
             {t("footer.save_your_money")}
           </span>
         </a>
@@ -41,7 +41,7 @@ const Footer = () => {
           rel="noreferrer"
           className="lg:col-start-2 col-span-6 lg:col-span-3 text-md lg:order-4 order-3"
         >
-          <span className="active:text-teal-600 focus:text-neutral-100 hover:text-teal-600 transition duration-1 text-xl">
+          <span className="active:text-teal-600 focus:text-neutral-100 hover:text-teal-600 transition duration-1 text-lg">
             {t("footer.start_activity")}
           </span>
         </a>
@@ -49,7 +49,7 @@ const Footer = () => {
           href="#about"
           className="col-span-6 lg:col-span-3 text-md lg:order-5 order-4"
         >
-          <span className="active:text-teal-600 focus:text-neutral-100 hover:text-teal-600 transition duration-1 text-xl">
+          <span className="active:text-teal-600 focus:text-neutral-100 hover:text-teal-600 transition duration-1 text-lg">
             {t("footer.about")}
           </span>
         </a>
